@@ -1,0 +1,18 @@
+[
+  {
+    "identifier": "default",
+    "description": "Enables default permissions for AutoType and basic app functionality",
+    "windows": ["main"],
+    "webApi": {
+      "all": true
+    },
+    "permissions": [
+      "core:window:allow-print",
+      "core:app:allow-app-hide",
+      "core:app:allow-app-show",
+      "core:app:allow-set-focus",
+      "core:window:allow-close",
+      "core:window:allow-set-skip-taskbar"
+    ]
+  }
+]

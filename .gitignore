@@ -1,0 +1,67 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# GitHub Copilot
+.copilot/
+
+# Cursor
+.cursor/
+
+# Windsurf / Codeium
+.codeium/
+
+# Tauri / Rust build artifacts
+src-tauri/target/
+
+# Generated files
+src-tauri/gen/
+src-tauri/bindings/
+
+# Rust backup files
+**/*.rs.bk
+
+# Coverage
+coverage/
+
+# Cache
+.cache/
+.eslintcache
+
+# Temporary files
+tmp/
+temp/
+
+# Bun
+bun.lockb

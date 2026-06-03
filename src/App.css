@@ -1,0 +1,16 @@
+/* App-specific styles */
+.crypto-visualizer {
+  display: grid;
+  gap: 1rem;
+}
+
+.layer-card {
+  padding: 1rem;
+  border: 1px solid #2a2a2a;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.layer-card:hover {
+  border-color: #8a9fb9;
+}
