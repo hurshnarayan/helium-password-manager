@@ -1,4 +1,4 @@
-# Helium
+# Helium Password Manager
 
 A privacy-first desktop password manager built with React, Rust, and Tauri.
 
